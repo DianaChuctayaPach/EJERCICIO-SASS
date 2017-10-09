@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+   <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sass</title>
+    <link rel="shortcut icon" href="assets/img/favicon.ico" type="img/x-icon">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/sass/main.css">
+    
+    </head>
+    <body>
+      <div class="container-fluid">
+        <div class="row"><div class="col-xs-12 col-sm-12 col-md-12">
+            <hr id="hrLab" class="visible-xs">
+            <hr class="visible-xs">
+          </div>
+        </div>
+      </div>
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-xs-12 col-sm-11 col-md-12">
+              <div class="tituloCapitan"> 
+                <h1>Capitan</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container-fluid">
+          <div class="row" id="bloques">
+            <!-- <div class="col-md-12 col-sm-12"> -->
+              <div class="col-xs-12 col-sm-6 col-md-4">
+              <ul>
+                <li id="ligray">Prework</li>
+                <li id="ligray">Quiz</li>
+                <li id="ligray">Presentacion</li>
+                <li id="lilab">Ejercicio</li>
+              </ul></div>
+              <!-- </div> -->
+              <div class="col-xs-12 col-sm-6 col-md-4" id="ejercicio">
+                          <div>
+                            <h1>Ejercicio</h1>
+                            <p>Este es el contenedor principal, el objetivo es que todo se vea bien aun cambiando las resoluciones, deberas cambiar los colores y tamaños explotando las variables y funciones de SASS</p>
+                            <p>Deberas obtener la lista de asistencia usando la API ubicada en <a href="http://laboratoria.cuadra.co:9339/api/v1/students/">http://laboratoria.cuadra.co:9339/api/v1/students/</a> y agregarle estilos con SASS</p>
+            
+                            <h4>Asistencia: </h4>
+                            <ol>
+                              <li> Andrea   <input type="checkbox"> </li>
+                              <li> Maria    <input type="checkbox"> </li>
+                              <li> Fernanda <input type="checkbox"> </li>
+                            </ol>
+                          </div>
+                </div>
+
+              <div class="col-xs-12 col-sm-12 col-md-4 text-center text-white">
+                  <div class="aside">
+                    <h2>Deberas</h2>
+                    <p>Crear una funcion para calcular el width % con base en que col es, ej col-1 = 8.33% , </p>
+                    <h2>Tambien</h2>
+                    <p>Implementar los colores de laboratoria usando la funcion rgb/a</p>
+                    <h2>Por ultimo</h2>
+                    <p>Implementar anidacion de maximo 4 niveles hacia abajo para facilitar la lectura del archivo</p>
+                    <h2>No olvides</h2>
+                    <p>Subir todo en version compress (--style)</p>
+                  </div>
+              </div>
+          </div>
+        </div>
+        <br><br>
+  <footer class="text-center text-white">
+          Cambiar el tamano de la ventana y cambiar tamaño de esto.
+  </footer>
+        <!-- </div> -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>  
+        <script src="assets/js/app.js"></script>              
+    </body>
+</html>
